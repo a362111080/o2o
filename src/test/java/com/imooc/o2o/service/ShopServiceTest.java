@@ -1,19 +1,5 @@
 package com.imooc.o2o.service;
 
-import static org.junit.Assert.assertEquals;
-
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.InputStream;
-import java.util.Date;
-
-import org.junit.Ignore;
-import org.junit.Test;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-import org.springframework.web.multipart.commons.CommonsMultipartFile;
-
 import com.imooc.o2o.BaseTest;
 import com.imooc.o2o.dto.ShopExecution;
 import com.imooc.o2o.entity.Area;
@@ -22,6 +8,17 @@ import com.imooc.o2o.entity.Shop;
 import com.imooc.o2o.entity.ShopCategory;
 import com.imooc.o2o.enums.ShopStateEnum;
 import com.imooc.o2o.exceptions.ShopOperationException;
+import org.junit.Ignore;
+import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
+import java.util.Date;
+
+import static org.junit.Assert.assertEquals;
 
 public class ShopServiceTest extends BaseTest{
 	@Autowired
@@ -75,5 +72,9 @@ public class ShopServiceTest extends BaseTest{
 		ShopExecution se=shopService.addShop(shop,is,shopImg.getName());
 		assertEquals(ShopStateEnum.CHECK.getState(), se.getState());
 	}
+
+    public static void main(String[] args) {
+        System.out.println(234324);
+    }
 
 }
