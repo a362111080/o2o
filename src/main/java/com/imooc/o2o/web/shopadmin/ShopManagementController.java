@@ -50,7 +50,7 @@ public class ShopManagementController {
 	private AreaService areaService;
 	/**
 	 * 判断是否登录
-	 * 没有登陆则重定向到店铺裂变
+	 * 没有登陆则重定向到店铺列表
 	 * 否者get登陆user信息
 	 * @param request
 	 * @return
