@@ -20,6 +20,7 @@ public class ShopDaoTest extends BaseTest {
 	@Autowired
 	private ShopDao shopDao;
 
+
 	@Test
 	public void testQueryShopList() {
 		Shop shopCondition= new Shop();
