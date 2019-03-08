@@ -11,7 +11,6 @@ public class ProductCategoryDaoTest extends BaseTest {
     @Autowired
     private ProductCategoryDao productCategoryDao;
 
-    //未测试，找不到配置文件
     @Test
     public void testQueryByShopId() throws Exception{
         long shopId=1;
