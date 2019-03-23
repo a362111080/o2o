@@ -14,9 +14,18 @@ public class Product {
 	private String promotionPrice;
 	private Integer priority;
 	private Date createTime;
+	private  Date lastEditTime;
 	//-1不可用，0下架，1.在前端展示系统展示
 	private Integer enableStatus;
-	
+
+	public Date getLastEditTime() {
+		return lastEditTime;
+	}
+
+	public void setLastEditTime(Date lastEditTime) {
+		this.lastEditTime = lastEditTime;
+	}
+
 	private List<ProductImg> productImgList;
 	private ProductCategory productCategory;
 	private Shop shop;

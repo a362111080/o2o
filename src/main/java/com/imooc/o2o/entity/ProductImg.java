@@ -4,18 +4,18 @@ import java.util.Date;
 
 public class ProductImg {
 	
-	private Long productImgid;
+	private Long productImgId;
 	private String imgAddr;
 	private String imgDesc;
 	private Integer priority;
 	private Date createTime;
 	private Long productId;
 	
-	public Long getProductImgid() {
-		return productImgid;
+	public Long getProductImgId() {
+		return productImgId;
 	}
-	public void setProductImgid(Long productImgid) {
-		this.productImgid = productImgid;
+	public void setProductImgid(Long productImgId) {
+		this.productImgId = productImgId;
 	}
 	public String getImgAddr() {
 		return imgAddr;
