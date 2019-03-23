@@ -1,3 +1,14 @@
-2019-03-22 20:17:25.822 [main] DEBUG c.i.o2o.dao.ProductDao.updateProductCategoryToNull-==>  Preparing: UPDATE tb_product SET product_category_id=null WHERE product_category_id=? 
-2019-03-22 20:17:25.877 [main] DEBUG c.i.o2o.dao.ProductDao.updateProductCategoryToNull-==> Parameters: 2(Long)
-2019-03-22 20:17:25.892 [main] DEBUG c.i.o2o.dao.ProductDao.updateProductCategoryToNull-<==    Updates: 1
+2019-03-23 20:51:07.845 [main] DEBUG com.imooc.o2o.dao.HeadLineDao.queryHeadLine-==>  Preparing: SELECT line_id, line_name, line_link, line_img, priority, enable_status, create_time, last_edit_time, FROM tb_head_line WHERE ORDER BY priority DESC 
+2019-03-23 20:51:07.909 [main] DEBUG com.imooc.o2o.dao.HeadLineDao.queryHeadLine-==> Parameters: 
+2019-03-23 20:53:38.892 [main] DEBUG com.imooc.o2o.dao.HeadLineDao.queryHeadLine-==>  Preparing: SELECT line_id, line_name, line_link, line_img, priority, enable_status, create_time, last_edit_time FROM tb_head_line WHERE ORDER BY priority DESC 
+2019-03-23 20:53:38.959 [main] DEBUG com.imooc.o2o.dao.HeadLineDao.queryHeadLine-==> Parameters: 
+2019-03-23 20:56:05.345 [main] DEBUG com.imooc.o2o.dao.HeadLineDao.queryHeadLine-==>  Preparing: SELECT line_id, line_name, line_link, line_img, priority, enable_status, create_time, last_edit_time FROM tb_head_line WHERE ORDER BY priority DESC 
+2019-03-23 20:56:05.390 [main] DEBUG com.imooc.o2o.dao.HeadLineDao.queryHeadLine-==> Parameters: 
+2019-03-23 20:57:40.873 [main] DEBUG com.imooc.o2o.dao.HeadLineDao.queryHeadLine-==>  Preparing: SELECT line_id, line_name, line_link, line_img, priority, enable_status, create_time, last_edit_time FROM tb_head_line ORDER BY priority DESC 
+2019-03-23 20:57:40.920 [main] DEBUG com.imooc.o2o.dao.HeadLineDao.queryHeadLine-==> Parameters: 
+2019-03-23 20:59:31.113 [main] DEBUG com.imooc.o2o.dao.HeadLineDao.queryHeadLine-==>  Preparing: SELECT line_id, line_name, line_link, line_img, priority, enable_status, create_time, last_edit_time FROM tb_head_line ORDER BY priority DESC 
+2019-03-23 20:59:31.159 [main] DEBUG com.imooc.o2o.dao.HeadLineDao.queryHeadLine-==> Parameters: 
+2019-03-23 20:59:31.174 [main] DEBUG com.imooc.o2o.dao.HeadLineDao.queryHeadLine-<==      Total: 0
+2019-03-23 21:17:54.845 [main] DEBUG c.imooc.o2o.dao.ShopCategoryDao.queryShopCategory-==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id is null ORDER BY priority DESC 
+2019-03-23 21:17:54.893 [main] DEBUG c.imooc.o2o.dao.ShopCategoryDao.queryShopCategory-==> Parameters: 
+2019-03-23 21:17:54.916 [main] DEBUG c.imooc.o2o.dao.ShopCategoryDao.queryShopCategory-<==      Total: 1

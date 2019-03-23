@@ -10,7 +10,7 @@ public class HeadLine {
 	private String lineImg;
 	private Integer priority;
 	//0不可用 1.可用
-	private Integer enableStaus;
+	private Integer enableStatus;
 	private Date createTime;
 	private Date lastEditTime;
 	public Long getLineId() {
@@ -43,11 +43,11 @@ public class HeadLine {
 	public void setPriority(Integer priority) {
 		this.priority = priority;
 	}
-	public Integer getEnableStaus() {
-		return enableStaus;
+	public Integer getenableStatus() {
+		return enableStatus;
 	}
-	public void setEnableStaus(Integer enableStaus) {
-		this.enableStaus = enableStaus;
+	public void setenableStatus(Integer enableStatus) {
+		this.enableStatus = enableStatus;
 	}
 	public Date getCreateTime() {
 		return createTime;
